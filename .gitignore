@@ -1,0 +1,58 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.log
+
+# Environnement virtuel (Windows / Unix)
+venv/
+.env
+.venv/
+env/
+ENV/
+.venv.bak/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# Fichiers de test ou sortie
+*.sqlite3
+*.db
+*.bak
+*.tmp
+
+# macOS / Windows système
+.DS_Store
+Thumbs.db
+
+# Dossiers d'upload et de sortie d'images générées
+uploads/
+panoramas/
+static/
+
+# PyCharm cache
+*.iml
+.cache/
+
+# Git
+*.orig
+
+# Fichiers générés par FastAPI / Uvicorn
+*.pid
+*.coverage
+coverage.xml
+htmlcov/
+
+# Fichiers compilés
+*.so
+*.dll
+
+# Jupyter notebooks (si jamais tu en ajoutes)
+.ipynb_checkpoints/
+
+# Logs
+logs/
+*.log
