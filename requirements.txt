@@ -1,0 +1,8 @@
+# Versions compatibles Python 3.12 avec binaires précompilés
+fastapi==0.104.1
+uvicorn[standard]==0.24.0
+opencv-python==4.9.0.80
+python-multipart==0.0.6
+aiofiles==23.2.1
+numpy>=1.26.0
+python-dotenv==1.0.0
